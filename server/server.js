@@ -12,7 +12,7 @@ const app = express()
 app.use(express.json())
 app.use(cors(
     { 
-        origin:["https://mitron-social-media-application.vercel.app"],
+        origin:["https://mitron-iota.vercel.app"],
         methods:["POST", "GET"],
         credentials: true
     }
